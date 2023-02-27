@@ -1,0 +1,37 @@
+.form {
+    background: #FFFFFF;
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.12);
+    border-radius: 29px;
+    height: 58px;
+}
+.form__label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding-left: 32px;
+    height: 100%;
+
+    &:before {
+        content:'';
+        display: block;
+        width: 24px;
+        height: 19px;
+        background-image: url(../../img/header/Iconemail.png);
+        background-size: initial;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+}
+.form__input {
+    flex-grow: 1; //писать текст до формы
+    margin-right: 5px;
+
+    &::placeholder {
+        color: #bbb; 
+        padding-left: 15px;
+    }
+}
