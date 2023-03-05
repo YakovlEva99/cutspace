@@ -1,0 +1,22 @@
+.img-card__info {
+   
+}
+.card-info {
+    display: flex;
+    align-items: center;//по центру относительно друг друга
+
+    padding: 30px;
+    background: #fff;
+    box-shadow: 4px 20px 42px -2px rgba($color: #000000, $alpha: 0.12);
+    border-radius: 15px;
+}
+.card-info__icon {
+    margin-right: 20px;
+}
+.card-info__text {
+
+}
+.card-info__title {
+font-weight: 700;
+
+}

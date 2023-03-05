@@ -1,0 +1,76 @@
+.serve {
+margin-top:73px;
+}
+.serve__text {
+text-align: center;
+}
+    // h2
+    // p
+.serve__card {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 113px;
+
+
+}
+.serve__item {
+    
+    text-align: center;
+    align-items: center;
+    margin-top: 45px;
+
+   &-size{
+    width: 540px;
+    height: 365px;
+   }
+
+
+
+}
+
+.choose {
+    margin-bottom: 136px;
+}
+.choose__serve__item-size {
+    width: 248px;
+    height: 183px;
+}
+.serve__item-info {
+    width: 364px;
+    margin-bottom: 25px;
+
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+.serve__item--left{
+    background-color: $accent;
+    color: #fff;
+}
+.serve__item-img {
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+    
+
+}
+.choose__img{
+    width: 70px;
+    height: 70px;
+
+    :hover {
+        background-color: $accent
+    }
+}
+.serve__item-text {
+    font-size: 28px;
+    margin-top: 15px;
+}
+    // <p>
+.button--white {
+    color: $accent;
+    margin-top: 45px;
+} 

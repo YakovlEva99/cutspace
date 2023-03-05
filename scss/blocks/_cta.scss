@@ -1,0 +1,55 @@
+
+
+
+.cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cta-block {
+background-color: #58BEBF;
+border-radius: 20px;
+
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+
+
+}
+.cta__img {
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 0 20px 0 0;
+    // border: 20px solid red;
+    // border-radius: 20px;
+    // border-left: 0;
+    // border-bottom: 0;
+}
+.cta__title.title {
+    color: #fff;
+}
+.cta__text {
+    width: 555px;
+    box-sizing: border-box;
+    padding-left: 95px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: 
+    url('./../../img/cta/ovalrigth.svg') top right no-repeat,
+    url('./../../img/cta/Oval.svg') bottom left -150px no-repeat;
+
+    p {
+        color:#fff;
+        width: 360px;
+    }
+}
+.cta__buttons-row {
+    margin-top: 30px;
+
+    display: flex;
+    column-gap: 20px;
+}

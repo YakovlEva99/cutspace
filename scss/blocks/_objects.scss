@@ -1,0 +1,30 @@
+.objects {
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+.objects__row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.objects__img {
+    display: flex;
+   justify-content: flex-end;
+    text-align: center;
+}
+.objects__text {
+    max-width: 543px;
+    padding-left: 181px;
+    p + p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+.objects__title {
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 42px;
+    line-height: 1.476;
+    font-weight: 700;
+}

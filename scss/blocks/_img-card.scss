@@ -1,0 +1,19 @@
+.img-card__img {
+    border-radius: 20px 20px 0px 20px;
+    .img-card--rounder & {
+        border-radius: 20px 20px 20px 20px;
+    }
+}
+.img-card + .img-card {
+    margin-left: 32px;
+}
+// &-подставляется название родительского селектора
+.img-card {
+    position: relative;
+    width: 385px;
+}
+.img-card__info {
+    position: absolute;
+    right: -46px;
+    bottom: 87px;
+}
