@@ -1,5 +1,5 @@
 .testimonial {
-
+    margin-bottom: 15px;
 }
 .testimonial__info {
     margin-top: 59px;
@@ -9,7 +9,6 @@
     margin-bottom: 93px;
 }
 .testimonal__left {
-    font-size: 42px;
     width: 452px;
 }
 .testimonial__right {
@@ -25,18 +24,47 @@
     width: 350px;
     height: 425px;
     
+    position: relative;
+
+    &:hover {
+        box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
+    }
+    
 }
 .testimonial__img {
+   width: 350px;
+   height: 204px;
+   
+   
+}
 
+.testimonial__card-text {
+    // display: block;
+    margin: 0 auto;
+    width: 262px;
 }
 .testimonail__text {
-    display: block;
-    margin: 0 auto;
-    width: 292px;
+    margin-top: 31px;
 }
 .testimonial__auter {
+    margin-top: 23px;
 
+    font-weight: 700;
+
+    font-size: 18px;
+    
 }
 .testimonial__space {
+    color: #58BEBF;
+    
 
+    &:hover {
+        color: $accent;
+    }
+}
+
+.testimonial__icon {
+    position: absolute;
+    right: -40px;
+    top: -40px;
 }

@@ -1,0 +1,61 @@
+.footer {
+    height: 325px;
+}
+.footer__item {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+
+}
+.footer__left {
+    width: 306px;
+    height: 173px;
+    margin-right: 224px;
+}
+.footer__text-h {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 18px;
+    &::before {
+        content: "";
+        width: 30px;
+        height: 30px;
+        background-image: url(./../../img/testimonial/Shape.png);
+    }
+}
+.footer__text-p {
+  margin-bottom: 40px;  
+}
+.footer__icon {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer__right {
+    display: flex;
+    column-gap: 40px;
+    &+& {
+        
+        margin-top: 30px;
+    }
+    li+li{
+        margin-top: 30px;
+    }
+}
+.footer__right-text {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: black;
+}
+.footer__left-row {
+    display: flex;
+    
+    align-items: center;
+}
+.footer__left-img {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}

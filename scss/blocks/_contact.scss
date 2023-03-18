@@ -1,0 +1,45 @@
+.contact {
+background-image: url(./../../img/footer/footer-bg.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 15px;
+// position: relative;
+
+}
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // position: relative;
+    
+   
+}
+.contact__text {
+    width: 359px;
+    margin: 0 auto;
+    color: #fff;
+
+}
+.contact__text-get {
+ margin-top: 40%;
+ margin-bottom: 15px;
+ 
+}
+
+.contact__img-oval{
+    position: absolute;
+    width: 743px;
+    height: 743px;
+    z-index: 2;
+    margin-left: -5%;
+}
+.contact__img-girl {
+    width: 478px;
+    height: 547px;
+    position: relative;
+    z-index: 3;
+    margin-bottom: -7px;
+    
+   
+   
+}
